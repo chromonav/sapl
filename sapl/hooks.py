@@ -2,7 +2,7 @@ app_name = "sapl"
 app_title = "Sapl"
 app_publisher = "hybrowlabs"
 app_description = "Sapl"
-app_email = "chinmay@hybrowlabs.com"
+app_email = "chinmay@hybrowlabs"
 app_license = "mit"
 # required_apps = []
 
