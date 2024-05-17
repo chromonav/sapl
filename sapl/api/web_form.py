@@ -60,7 +60,7 @@ def accept(web_form, data):
             # only if permissions are present
             doc.save()
     elif web_form.name =="employee-onboarding-final":
-        doc.save()
+        doc.save(ignore_permissions=True)
     else:
         # insert
         if web_form.login_required and frappe.session.user == "Guest":
