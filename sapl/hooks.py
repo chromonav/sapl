@@ -227,3 +227,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+override_whitelisted_methods = {
+	"frappe.website.doctype.web_form.web_form.accept": "sapl.api.web_form.accept"
+}
