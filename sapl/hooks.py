@@ -159,9 +159,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "sapl.event.get_events"
-# }
+override_whitelisted_methods = {
+	"hrms.hr.doctype.employee_onboarding.employee_onboarding.make_employee": "sapl.sapl.overrides.employee.make_employee"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -226,3 +226,4 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
