@@ -52,4 +52,5 @@ def make_employee(source_name, target_doc=None):
     doc.passport_number = onboarding_doc.get("custom_passport_number","")
     doc.valid_upto = onboarding_doc.get("valid_upto","")
     doc.notice_number_of_days = onboarding_doc.get("custom_employee_notice_period_days","")
+    doc.custom_father_name = onboarding_doc.get("custom_middle_name","")
     return doc
